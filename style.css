@@ -276,6 +276,9 @@ footer.kaki .va-c {
         margin-right: 10px;
         margin-left: 10px;
     }
+    .is-150px {
+        max-width: 150px;
+    }
 }
 @media screen and (max-width:1023px) {
     .social-media {
@@ -339,5 +342,10 @@ footer.kaki .va-c {
     footer.kaki .menu:not(.social-media) a:hover {
         background: transparent;
         color: var(--primary-light);
+    }
+    .is-150px {
+        max-width: 150px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 }
