@@ -237,10 +237,10 @@ hr {
     background-size: 100%;
 }
 /* Footer */
-footer.section {
+footer.kaki {
     background: #151515;
 }
-footer.section a {
+footer.kaki a {
     color: var(--primary);
 }
 .social-media li {
@@ -250,7 +250,7 @@ footer.section a {
     float:left;
     display:flex;
 }
-footer.section .va-c {
+footer.kaki .va-c {
     float: right;
 }
 @media screen and (min-width:1024px) {
@@ -260,7 +260,7 @@ footer.section .va-c {
     .choose.right .va-c {
         margin-left: 5rem;
     }
-    footer.section .copy {
+    footer.kaki .copy {
         text-align:right;
         margin-top:12px;
     }
