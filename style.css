@@ -213,7 +213,9 @@ hr {
 }
 /* Front Banner */
 .front-banner {
-    margin-top: 7rem;
+    background: url(static/front-banner.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 7rem;
 }
 .front-banner .buttons {
     margin-top: 20px;
@@ -267,6 +269,9 @@ footer.kaki .va-c {
         text-align:right;
         margin-top:12px;
     }
+    .navbar-brand {
+        margin-right: 20px;
+    }
 }
 @media screen and (max-width:1023px) {
     .social-media {
@@ -277,5 +282,58 @@ footer.kaki .va-c {
     }
     .team .column.is-6 {
         float:left;
+    }
+    .navbar-brand {
+        height: 5rem;
+    }
+    .navbar-brand .navbar-item {
+        margin-left: 1.5rem;
+    }
+    .navbar-brand .navbar-burger {
+        height: 5rem;
+        width: 5rem;
+    }
+    .navbar-brand .navbar-burger span {
+        height: 2px;
+        width: 30px;
+        left: calc(50% - 12px);
+        background: var(--primary);
+    }
+    .navbar-brand .navbar-burger:not(.is-active) span:nth-child(1) {
+        top: calc(50% - 11px);
+    }
+    .navbar-brand .navbar-burger:not(.is-active) span:nth-child(2) {
+        width: 18px;
+        left: calc(50%);
+    }
+    .navbar-brand .navbar-burger:not(.is-active) span:nth-child(3) {
+        top: calc(50% + 9px);
+        width: 22px;
+        left: calc(50% - 4px);
+    }
+    .on-scroll .navbar-menu {
+        border-radius: 0 0 10px 10px;
+    }
+    .navbar-menu {
+        border-radius: 10px;
+        background: #272727;
+        padding: 1rem;
+    }
+    .navbar-menu .navbar-end {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    footer.kaki .columns {
+        display: flex;
+    }
+    footer.kaki .column.is-6-mobile {
+        float: left;
+    }
+    footer.kaki .menu:not(.social-media) a {
+        padding-left: 0;
+    }
+    footer.kaki .menu:not(.social-media) a:hover {
+        background: transparent;
+        color: var(--primary-light);
     }
 }
