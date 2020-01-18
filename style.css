@@ -76,6 +76,9 @@ hr {
     background: #252525;
     color: #fff;
 }
+.card.is-white {
+    background: #fff!important;
+}
 /* Login & Reg */
 .login-section {
     background: url('static/image-wave.svg') center no-repeat;
