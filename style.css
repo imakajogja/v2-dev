@@ -67,6 +67,10 @@ hr {
     background: #ffff50;
     color: initial;
 }
+.button.is-text {
+    color: #fff;
+    text-decoration: none;
+}
 /* Card */
 .card {
     background: #252525;
